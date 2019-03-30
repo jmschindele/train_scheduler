@@ -22,9 +22,7 @@ h3 {
     font-size: 18px;
 }
 
-input {
-    width: 95%;
-}
+
 
 #submit-button {
     width: 100px;
@@ -44,10 +42,7 @@ thead {
     border-top-right-radius: 5px;
 }
 
-table {
-    border: 1px solid #337AB7;
-    border-radius: 5px;
-}
+
 
 .title-row {
     width: 10%;
@@ -63,15 +58,17 @@ td {
 
 
 
+input {
+    border-radius: 5px;
+    margin: 10px;
+    width: 95%;
+}
+
+
 form {
     margin-top: 20px;
     border: 1px solid  #337AB7;
     border-radius: 5px;
-}
-
-input {
-    border-radius: 5px;
-    margin: 10px;
 }
 
 form h3 {
@@ -81,4 +78,6 @@ form h3 {
 table {
     border: 1px solid #337AB7;
     border-radius: 5px;
+    
 }
+
