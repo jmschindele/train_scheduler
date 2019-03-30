@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Train Scheduler</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Anytime is Train Time</h1>
+        <p>Choo Choo. Chee Chee.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-hover" id="train-schedule">
+            <thead>
+              <tr>
+                <td colspan="5">Current Train Schedule</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>123123</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>123123</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>2123123</td>
+                <td>123123123</td>
+              </tr>
+            </tbody>
+          </table>
+          <form>
+            <h2>Add Train</h2>
+            <h3>Train Name</h3>
+            <input type="text" id="name" />
+            <h3>Destination</h3>
+            <input type="text" id="destination" />
+            <h3>First Train Time (HH:mm - military time)</h3>
+            <input type="text" id="first-time" />
+            <h3>Frequency (min)</h3>
+            <input type="text" id="frequency" />
+            <br />
+            <input
+              type="button"
+              id="submit-button"
+              value="Submit"
+              class="btn"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
