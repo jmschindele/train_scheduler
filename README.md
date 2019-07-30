@@ -1,6 +1,3 @@
-# train_scheduler
-firebase application for predicting train arrival times
-
 # Train Schedule
 
 A firebase application for predicting train arrival times.
